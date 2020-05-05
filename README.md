@@ -9,3 +9,6 @@ technology
 
 ## Bibs
 [Swagger](https://de.wikipedia.org/wiki/Swagger_(Software))
+
+## links
+[bluetoothCorona](https://www.golem.de/news/bluetooth-schnittstelle-so-funktioniert-die-corona-app-mit-android-2005-148247.html)
