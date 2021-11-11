@@ -1,0 +1,53 @@
+@startuml
+
+class Kunde {
+ - contract:List<Contract>
+ - customerNumber:int
+ - firstName:String
+ - secondName:String
+ - birthday:Date
+ + setContract(contracts:List<Contract>):void
+ + setCustomerNumber(number:int):void
+ + setFirstName(firstname:String):void
+ + setSecondName(secondname:String):void
+ + setBirthday(birthday:Date):void
+ + getContract():List<Contract)
+ + getCostomerNumber():int
+ + getFirstName():String
+ + getSecondName():String
+ + getBirthday():Date
+}
+
+class Contract{
+- contractNumber: int
+- contractualOffer:Enum
+- int annualSubscription
+
++ setContractNumber(contractNumber:int):void
++ setContractualOffer(contractualOffer:Enum):void
++ setAnnualSubscription(annualSubsriction:int):void
+
++ getContractNumber():int
++ getContractualOffer():Enum
++ getAnnualSubscription():int
+}
+
+class Address{
+- street:String
+- postCode:int
+- placeOfResidence:String
+
++ setStreet(street:String):void
++ setPostCode(PostCode:int):void
++ setPlaceOfResidence(por:String):void
+
++ getStreet():String
++ getPostCode():int
++ getPlaceOfResidence():String
+}
+
+Address *-"1..*" Kunde
+Contract o-"*" Kunde
+
+
+@enduml

@@ -1,0 +1,24 @@
+Ist es sinnvoll den Typ anschließend an den Variablen Namen anzuhängen?
+Halte ich persönlich nicht für sinnvoll. Es gibt viele Unternehmen und Foren, die das für sinnvoll halten aber es gibt auch Gegner (so wie ich :D) 
+
+Weil in heutiger Zeit mit Unterstützung einer sauberen Entwicklungsumgebung hast da eh keine Probleme mehr.. Des kam von früher als die noch nicht so mächtig waren
+21:06
+
+Also meine Meinung  
+
+
+Wieso geht Null or Empty String nicht?
+Weil die Funktion noch in der andern Methode war :-)
+
+Dynamisch Map für Zustandstabele. In der werden die StatusObjekte gespeichert. Done.
+
+Kann bzw muss jedes Symbol eien Wert bei der Initialisierung zugeweisen bekommen? Symbol hat bei mir
+zwei Attribute:
+private String eingabe;
+private String ausgabe;
+answer: Es gibt für das Objekt Symbol jeweils nur eine String variable die für Eigabe und Ausgabe zuständig ist.
+
+Ist es richtig, dass es nur einen Zustand gibt? durch Abgleich der zentrablen Tabelle,
+ständig geändert wird?
+
+CleanCode: einheitlich bei der Sprahe bleiben.
